@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+.main {
+    height: 785px;
+    background: url(../img/wallpaper.png) center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.main-child {
+    z-index: 10;
+    display: grid;
+    justify-content: center;
+}
+
+.main h1 {
+    font-size: 64px;;
+    max-width: 510px;
+}
+
+.main span {
+    font-size: 26px;
+}
+
+.form-cta {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form-cta input {
+    padding: 20px 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.form-cta button {
+    background: #e50914;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.main p{
+    font-size: 19px;
+}
+
+.gradient {
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(to top, rgba(0,0,0,.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header {
+}
